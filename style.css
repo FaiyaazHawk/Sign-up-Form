@@ -3,10 +3,13 @@
     font-family: Norse;
     src: url(./font/Norse-Bold.otf);
 }
+html {
+    background-color: white;
+}
 
 .page-wrapper {
     display: flex;
-    background-color: rgb(241, 240, 237);
+    
 }
 
 a:link {
@@ -62,6 +65,12 @@ a:link {
 
 /* Right form styling */
 
+.right-pane-form {
+    
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
 .form-unit {
     display: block;
     text-align: left;
@@ -84,3 +93,16 @@ label {
 
 /* Right submit container */
 
+.right-pane-submit-container {
+    padding-top: 50px;
+    background-color: whitesmoke;
+    transform: translateX(5px);
+}
+
+button {
+    background-color: #596D48;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    transform: translateX(35px);
+}
