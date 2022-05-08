@@ -91,6 +91,19 @@ label {
     font-size: smaller;
 }
 
+input:focus {
+    border-color: lightskyblue;
+    box-shadow: 10px rgb(22, 22, 22);
+    
+    
+}
+
+.error {
+    border-color: red;
+}
+
+
+
 /* Right submit container */
 
 .right-pane-submit-container {
