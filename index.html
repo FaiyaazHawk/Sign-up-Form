@@ -14,7 +14,8 @@
                 <img src="./imgs/odin-lined.png" width="100px" height="auto">
                 <p>ODIN</p>
             </div>
-            <div class="left-pane-footer">Photo by <a href="">Halie West</a> on <a href="">Unsplash</a></div>
+            
+            <div class="left-pane-footer">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></div>
         </div>
         <div class="right-pane">
             <div class="right-pane-top-message">
@@ -32,23 +33,39 @@
                     
                     <p><strong>Lets do this!</strong></p>
                     <p>Required fields are marked with *</p>
-                    <label for="first-name">First Name *</label>
-                    <input type="text" name="first-name" id="first-name" placeholder="John" required>
 
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name" id="last-name" placeholder="Smith">
+                    <div class="form-row">
+                        <div class="form-unit">
+                            <label for="first-name">First Name *</label>
+                            <input type="text" name="first-name" id="first-name" placeholder="John" required>
+                        </div>
+                        <div class="form-unit">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Smith">
+                        </div>
+                    </div>
                     
-                    <label for="email">Email *</label>
-                    <input type="email" name="email" id="email" placeholder="hello@example.com" required>
+                    <div class="form-row">
+                        <div class="form-unit">
+                            <label for="email">Email *</label>
+                            <input type="email" name="email" id="email" placeholder="hello@example.com" required>
+                        </div>
+                        <div class="form-unit">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel" name="phone-number" id="phone-number" placeholder="123-456-7890">
+                        </div>
+                    </div>
 
-                    <label for="phone-number">Phone Number</label>
-                    <input type="tel" name="phone-number" id="phone-number" placeholder="123-456-7890">
-
-                    <label for="password">Password *</label>
-                    <input type="password" name="password" id="password" required>
-
-                    <label for="confirm-password">Confirm Password *</label>
-                    <input type="password" name="confirm-password" id="confirm-password" required>
+                    <div class="form-row">
+                        <div class="form-unit">
+                            <label for="password">Password *</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <div class="form-unit">
+                            <label for="confirm-password">Confirm Password *</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                        </div>
+                    </div>
 
 
                 </fieldset>
