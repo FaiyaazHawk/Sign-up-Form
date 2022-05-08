@@ -1,5 +1,40 @@
+
 @font-face {
     font-family: Norse;
     src: url(./font/Norse-Bold.otf);
 }
 
+.page-wrapper {
+    display: flex;
+}
+
+/* Left panel styling */
+.left-pane {
+    background-image: url(./imgs/halie-west-25xggax4bSA-unsplash.jpg);
+    height: 100vh;
+    width: 75vw;
+    backdrop-filter: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin-box {
+    display: flex;
+    font-family: Norse;
+    font-size: 50px;
+    background-color: black;
+    opacity: 0.7;
+    width: 40vw;
+    color: antiquewhite;
+    justify-content: center;
+    transform: translateY(100px);
+}
+
+.left-pane-footer {
+    color: antiquewhite;
+    margin-top: auto;
+}
+
+/* Right panel styling */
