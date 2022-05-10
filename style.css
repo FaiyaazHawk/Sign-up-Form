@@ -98,11 +98,11 @@ input:focus {
     
 }
 
-.error {
-    border-color: red;
+
+
+#mismatch {
+    color: red
 }
-
-
 
 /* Right submit container */
 
